@@ -17,7 +17,9 @@ Agregar configuracion a app.module.ts
 import { SocketIoModule, SocketIoConfig } from "ngx-socket-io";
 
 
-const config: SocketIoConfig = { url: "http://'ip':5000", options: {} }; // ip ejemplo : 192.168.1.23 // Esta configuración es para hacer pruebas en el dispositivo fisico                                                    apuntando al servidor local.
+const config: SocketIoConfig = { url: "http://'ip':5000", options: {} }; 
+// IP ejemplo : 192.168.1.23 // Esta configuración es para hacer pruebas en el dispositivo fisico 
+apuntando al servidor local.
 
 imports: [
   SocketIoModule.forRoot(config)
